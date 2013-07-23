@@ -1,0 +1,69 @@
+/* CSS Document */
+
+html {
+	height: 100%;	
+}
+body {
+	line-height:1.5em;
+	color:#222;
+	font-family:"PT Serif", "Georgia", "Helvetica Neue", Arial, sans-serif;
+	font-size:1.15em;
+	position:relative;
+	min-height:100%;
+}
+h1 {
+	font-size:2.6em;
+	line-height:1.2em;
+	margin: 0em;
+	color:#0088cc;
+}
+h1, h2, h3, h4, h5, h6 {
+	text-rendering:optimizelegibility;
+	margin-bottom:1em;
+	font-weight:bold
+}
+.aside {
+	width: 300px;
+	height: 100%;
+	background-color: #0088cc;
+	position:fixed;
+	top:0;
+	left:0;
+	bottom:0;
+	color:#FFF;
+	font-size: 0.8em;
+	line-height:1.5em;
+	overflow: hidden;
+}
+.article {
+	margin-left:300px;
+	padding:2em;
+	padding-top:1em;
+}
+.datestamp {
+	color:#CCCCCC;
+}
+.logo {
+	text-indent: -999px;
+	background-image: url(../img/insights_logo.png);
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 300px;
+	display: block;
+	clear: both;
+}
+#description > p {
+	padding: 1em;
+}
+.small {
+	font-size: 0.6em;
+	line-height:1.5em;
+	color: #fff;
+}
+footer {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	padding:1em;
+	width: 280px;
+}
