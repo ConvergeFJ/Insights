@@ -11,19 +11,25 @@ body {
 	position:relative;
 	min-height:100%;
 }
+h1 a {
+	color: #0088cc;
+	text-decoration: none;	
+}
 h1 {
 	font-size:2.6em;
 	line-height:1.2em;
 	margin: 0em;
 	color:#0088cc;
+	text-shadow: 2px 2px 2px rgb(145, 250, 215);
 }
 h1, h2, h3, h4, h5, h6 {
 	text-rendering:optimizelegibility;
 	margin-bottom:1em;
-	font-weight:bold
+	font-weight:bold;
+
 }
 .aside {
-	width: 300px;
+	width: 250px;
 	height: 100%;
 	background-color: #0088cc;
 	position:fixed;
@@ -34,11 +40,17 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 0.8em;
 	line-height:1.5em;
 	overflow: hidden;
+	text-shadow: 1px 0px 1px rgba(206, 209, 206, 1);
+	-webkit-box-shadow: 1px 1px 5px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    1px 1px 5px rgba(50, 50, 50, 0.75);
+box-shadow:         1px 1px 5px rgba(50, 50, 50, 0.75);
 }
 .article {
-	margin-left:300px;
+	margin-left:250px;
+	margin-right:280px;
 	padding:2em;
 	padding-top:1em;
+	min-height:100%;
 }
 .datestamp {
 	color:#CCCCCC;
@@ -47,8 +59,8 @@ h1, h2, h3, h4, h5, h6 {
 	text-indent: -999px;
 	background-image: url(../img/insights_logo.png);
 	background-repeat: no-repeat;
-	height: 100px;
-	width: 300px;
+	height: 84px;
+	width: 250px;
 	display: block;
 	clear: both;
 }
@@ -65,5 +77,144 @@ footer {
 	left: 0px;
 	bottom: 0px;
 	padding:1em;
-	width: 280px;
+	width: 220px;
+}
+
+promos {
+	display:block;
+	width: 250px;
+	position: fixed;
+	right:0px;
+	top: 0px;
+	background-color:#F5F5F5;
+	font-size: 0.8em;
+	line-height:1.5em;
+	overflow: hidden;
+	height:100%;
+	padding-left: 15px;
+	padding-right: 15px;
+	-webkit-box-shadow: -1px 1px 5px rgba(194, 194, 194, 0.75);
+	-moz-box-shadow:    -1px 1px 5px rgba(194, 194, 194, 0.75);
+	box-shadow:         -1px 1px 5px rgba(194, 194, 194, 0.75);
+}
+promos #recent_articles{
+	margin: 0px;
+	padding-left: 0px;	
+}
+
+promos #recent_articles li {
+	list-style-type: none;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+	padding-top: 1em;
+	padding-right: 0em;
+	padding-bottom: 1em;
+	padding-left: 0em;
+}
+
+promos #recent_articles li a {
+	text-decoration: none;
+	color: #333;
+	text-shadow: 2px 2px 2px rgba(255, 255, 255, 1);	
+}
+promos #recent_articles li a:hover {
+	text-decoration: underline;
+	color: #333;
+	text-shadow: 2px 2px 2px rgba(255, 255, 255, 1);	
+}
+
+promos #recent_articles li span {
+	display: block;
+	clear: both;
+	font-size: 0.75em;
+	color: #ccc;
+}
+
+social {
+	clear:both;
+	display:block;
+}
+
+social ul {
+	margin: 0px;
+	padding-left: 0px;	
+}
+
+social ul li {
+	float: left;
+	margin-right: 0.1em;
+	list-style-type: none;
+}
+
+social ul a {
+	background-color: #006699;
+	font-size: 0.7em;
+	font-weight: bold;
+	color: #FFF;
+	text-decoration: none;
+	text-align: center;
+	padding-right: 0.5em;
+	padding-left: 0.5em;
+}
+
+a:hover {
+	text-decoration: underline;	
+}
+
+.article a {
+	color: #0088cc;
+	text-decoration: none;	
+}
+.article a:hover {
+	text-decoration: underline;	
+}
+
+#converge {
+	background-image: url(../img/converge-logo.png);
+	background-repeat: no-repeat;
+	height: 49px;
+	width: 203px;
+	display:block;
+	text-indent:-999px;
+}
+author {
+	padding: 1em;
+	display: block;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #F7F7F7;
+	border-right-color: #F7F7F7;
+	border-bottom-color: #F7F7F7;
+	border-left-color: #F7F7F7;
+}
+author .author-thumbnail {
+	float: left;
+	width: 10%;
+	border: 1px solid #0088cc;
+}
+author .author-details {
+	font-size: 0.75em;
+	color: #999;
+	float: left;
+	width: 80%;
+	padding-right: 1em;
+	padding-left: 1em;
+	line-height: 1.4em;
+}
+author .author-details .author-name {
+	font-weight: bold;
+	clear: both;
+	display: block;
 }
