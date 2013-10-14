@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Your Page Title Goes Here</title>
+<!-- TemplateEndEditable -->
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width">
+<link rel="author" href="https://plus.google.com/u/0/105729163277362244982">
+<link rel="stylesheet" href="../css/normalize.css">
+<link rel="stylesheet" href="../css/main.css">
+<link rel="stylesheet" href="../css/insights.css">
+<link rel="stylesheet" href="../css/phones.css">
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+</head>
+<body>
+<!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+<div class="aside"> <a href="" class="logo">Insights from Converge</a>
+  <div id="description">
+    <p><strong>Converge's Official Blog</strong> - Where we share our thoughts & opinions, tips & techniques.  We may also occasionaly brag about our Products & Services.</p>
+  </div>
+</div>
+<div class="article">
+  <div class="datestamp"><!-- TemplateBeginEditable name="article-date" -->article-date<!-- TemplateEndEditable --></div>
+  <!-- TemplateBeginEditable name="article-title" -->
+  <h1><a href="#">article-title</a></h1>
+  <!-- TemplateEndEditable --> <!-- TemplateBeginEditable name="article-content" -->article-content<!-- TemplateEndEditable --><!-- #BeginLibraryItem "/Library/author-block.lbi" -->    <author>
+    	<img src="../img/author1.jpg"  class="author-thumbnail" alt="Author Thumbnail">
+      <div class="author-details"><span class="author-name">Calvin Prasad</span> Calvin, Projects & Services Manager, oversees the day to day activities at Converge, ensuring each day is spent maximizing results for clients while finding new ways to streamline our operations. </div>
+        <div class="clearfix"></div>
+    </author><!-- #EndLibraryItem --></div>
+<promos><!-- #BeginLibraryItem "/Library/recent-articles.lbi" -->  <ul id="recent_articles">
+    <li><a href="../samsung_galaxy_battery_tips.html">Samsung Galaxy Battery Like Tips</a> <a href=""></a><span>October 2, 2013</span></li>
+    <li><a href="../linkedin_feature_to_block_creepy_visitors.html">LinkedIn feature to block 'creeps' </a><span>October 1, 2013</span></li>
+  </ul><!-- #EndLibraryItem --><div class="clearfix"></div>
+</promos>
+<div class="clearfix"></div>
+<footer>
+ <div class="small">Like this template?  You can get it from Converge's <a href="https://github.com/ConvergeFJ/Insights">Github repo</a>.  We've licensed it as GPL (It's Open Source).</div>
+  <social>
+    <ul>
+      <li><a href="#" class="facebook">Facebook </a></li>
+      <li><a href="#" class="twitter">Twitter</a></li>
+      <li><a href="#" class="linkedin">Linked In</a></li>
+    </ul>
+    <div class="clearfix"></div>
+  </social>
+  <a href="http://www.converge.com.fj" id="converge">Converge Website</a> </footer>
+</body>
+</html>
